@@ -1,0 +1,77 @@
+<!--
+<description>
+   <oai-identifier
+         xmlns="http://www.openarchives.org/OAI/2.0/oai-identifier"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai-identifier
+             http://www.openarchives.org/OAI/2.0/oai-identifier.xsd">
+      <scheme>oai</scheme>
+      <repositoryIdentifier>ethnologue.com</repositoryIdentifier>
+      <delimiter>:</delimiter>
+      <sampleIdentifier>oai:ethnologue.com:aaa</sampleIdentifier>
+   </oai-identifier>
+</description>
+-->
+
++++
+# OAI identifier description
+[oai-identifier]
+ xmlns="http://www.openarchives.org/OAI/2.0/oai-identifier"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai-identifier http://www.openarchives.org/OAI/2.0/oai-identifier.xsd"
+
+scheme = oai
+repositoryIdentifier =
+delimiter = :
+sampleIdentifier =
+
++++
+# OLAC Archive Description
+<!--
+<description>
+   <olac-archive type="institutional" currentAsOf="2008-04-19"
+         xmlns="http://www.language-archives.org/OLAC/1.1/olac-archive"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.language-archives.org/OLAC/1.1/olac-archive
+         http://www.language-archives.org/OLAC/1.1/olac-archive.xsd">
+      <archiveURL>http://www.ethnologue.com/bibliography.asp</archiveURL>
+      <participant name="Vurnell Cobbey" title="Archives director (acting)"
+         email="archive_dallas@sil.org"/>
+      <participant name="Joan Spanne" title="Database administrator"
+         email="joan_spanne@sil.org"/>
+      <institution>SIL International</institution>
+      <institutionURL>http://www.sil.org</institutionURL>
+      <shortLocation>Dallas, USA</shortLocation>
+      <location>7500 W. Camp Wisdom Rd., Dallas, TX 75236, U.S.A.</location>
+      <synopsis>The SIL International Language and Culture Archives holds works authored or edited by members of SIL International or produced by a publishing unit of SIL. It houses over 13,000 books, journal articles, book chapters, dissertations, and other academic papers about languages and cultures. It also has about 8,000 items written in the languages studied, such as literacy primers, books on basic education topics (health, math, social studies), story books, and translated works. The vast majority of works are published. The materials date from 1935 to the present.
+      </synopsis>
+      <access>Links are given to publications that are directly accessible via the Internet. Recent SIL publications may be purchased from the International Academic Bookstore (Academic_Books AT sil.org), either in paper or in electronic form. Out-of-print SIL publications may be obtained by special order. All materials may be viewed by visiting the Archives by appointment during normal business hours.
+      </access>
+      <archivalSubmissionPolicy>The SIL International Language and Culture Archives accepts submissions from active and retired SIL staff in the areas of language and culture documentation and description, and language-based development. Under some circumstances, the Archives will also accept materials from former staff and persons more casually associated with SIL language work, if such materials relate to research done with the assistance of SIL or its staff, and there is not a more appropriate institution able to accept and curate the materials long-term. Please address any questions to the Archives by sending email to archive_dallas AT sil.org.
+      <archivalSubmissionPolicy>
+   </olac-archive>
+</description>
+-->
++++
+[olac-archive]
+type =
+currentAsOf =
+
+archiveURL =
+
+#participants are repeatable
+[participant]
+name =
+title =
+email =
+
+[Institution]
+name =
+institutionURL =
+shortLocation =
+location =
+synopsis =
+access =
+archivalSubmissionPolicy =
+
+---

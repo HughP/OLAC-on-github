@@ -21,7 +21,7 @@ How can we rectify the problem of finding language tools and resources which are
 2. We can write a service which scans github for these files, finds them and then harvests the file, and other relevant data via the github API, consolidates these files into a single XML file (of course in the OLAC compliant format) and then pushes that XML file to a repo which the OLAC service monitors.
 
 The exact mechanics of how `#2` works out, needs to be negotiated.
-* It seems that this sort of thing could be accomplished with Travis-CI.
+* It seems that this sort of thing could be accomplished with Travis-CI. (But if that doesn't work out I have a rasberry pi that we could use). 
 * It also seems possible that YAML or TOML might be able to be used, but the internationalization of strings would need to be tested.
 * OLAC calls for an archive description, and assumes an institutional framework. Github in this case is not the data provider or publisher. In some cases a github "organization" may be the provider. In other cases it might be an individual with only one repository. There should be some experimentation to determine the simplest but most efficient path is for human interaction and contribution. Some individuals
 * github is not the only provider there is also gitlab, and a blossoming industry of data and archive like services.
